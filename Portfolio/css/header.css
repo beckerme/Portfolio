@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #FDC500;
+}
+
+header > div > h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 2rem;
+}
+
+header > nav > a{
+    margin-right: 1em;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}

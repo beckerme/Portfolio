@@ -1,0 +1,40 @@
+.projects__circle{
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    background-color: blue;
+    margin-left: 5em;
+    position: relative;
+}
+
+.projects__group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects__list{
+    margin-left: 2em;
+}
+
+.intro__title.-projects{
+    width: 70%;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: #000;
+    line-height: 2em;
+}
+
+ul > li > a:hover{
+    text-decoration: underline;
+}
+
+.projects__icon{
+    position: absolute;
+    font-size: 8em;
+    left: 1em;
+    top: 1em;
+
+}
