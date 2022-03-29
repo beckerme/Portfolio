@@ -1,0 +1,44 @@
+@media (min-width: 300px) and (max-width: 850px){
+    .projects{
+        margin-top: -10em;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 790px){
+    .projects__circle > i{
+        display: none;
+    }
+
+    .projects__list{
+        margin-left: -600px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 670px){
+    .intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__article{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .picture__imgSource{
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+    }
+
+    .projects__list{
+        padding-top: 10em;
+        margin: auto;
+    }
+
+    .projects__list > h2{
+        margin-left: -2em;
+    }
+}
+
+

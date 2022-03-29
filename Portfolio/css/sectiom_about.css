@@ -48,6 +48,18 @@
     line-height: 20px;
 }
 
+.intro__paragraph > a{
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    transition: 1s ease-in-out;
+    text-decoration: none;
+}
+
+.intro__paragraph > a:hover{
+    color: #575757;
+    transition: 1s ease-in-out;
+}
+
 .picture__imgSource{
     transition: 2s ease-in-out;
 }

@@ -10,6 +10,18 @@ header{
 header > div > h1{
     font-family: 'Barlow', sans-serif;
     font-size: 2rem;
+    transition: all 0.8s;
+}
+
+header > div > h1:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,1));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.6));
+    /* box-shadow:
+                1px 1px #FB8500,
+                2px 2px #FB8500,
+                3px 3px #FB8500; */
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
 }
 
 header > nav > a{
@@ -19,4 +31,10 @@ header > nav > a{
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
+    transition: all 0.5s;
+}
+
+header > nav > a:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
