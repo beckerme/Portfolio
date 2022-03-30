@@ -3,10 +3,11 @@
         margin-top: -10em;
     }
 
-    /* .footer{
-        position: absolute;
-        bottom: 0;
-    } */
+    .footer{
+        /* position: absolute;
+        bottom: 0; */
+        margin-top: 3em;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 790px){
@@ -17,9 +18,17 @@
     .projects__list{
         margin-left: -600px;
     }
+
+    .footer{
+        margin-top: 4em
+    }
 }
 
 @media (min-width: 300px) and (max-width: 670px){
+    body{
+        overflow-x: hidden;
+    }
+
     .intro{
         display: flex;
         flex-direction: column;
@@ -45,10 +54,11 @@
         margin-left: -2em;
     }
 
-    /* .footer{
-        position: absolute;
-    bottom: 0;
-    } */
+    .footer{
+        /* position: absolute;
+        bottom: 0; */
+        margin-top: 2.5em;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 445px){
@@ -76,10 +86,10 @@
         padding-left: 1em;
     }
 
-    .footer{
+    /* .footer{
         position: absolute;
         bottom: 0;
-    }
+    } */
 }
 
 @media (min-width: 300px) and (max-width: 375px){
@@ -103,8 +113,9 @@
     }
 
     .footer{
-        position: absolute;
-        bottom: 0;
+        /* position: absolute;
+        bottom: 0; */
+        margin-top: 4em;
     }
 }
 
