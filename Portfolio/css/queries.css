@@ -3,10 +3,10 @@
         margin-top: -10em;
     }
 
-    .footer{
+    /* .footer{
         position: absolute;
         bottom: 0;
-    }
+    } */
 }
 
 @media (min-width: 300px) and (max-width: 790px){
@@ -45,10 +45,10 @@
         margin-left: -2em;
     }
 
-    .footer{
+    /* .footer{
         position: absolute;
     bottom: 0;
-    }
+    } */
 }
 
 @media (min-width: 300px) and (max-width: 445px){
