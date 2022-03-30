@@ -2,6 +2,11 @@
     .projects{
         margin-top: -10em;
     }
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 790px){
@@ -38,6 +43,67 @@
 
     .projects__list > h2{
         margin-left: -2em;
+    }
+
+    .footer{
+        position: absolute;
+    bottom: 0;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 445px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .intro__paragraph{
+        padding-left: 1em;
+    }
+
+    .intro__title.-projects{
+        padding-left: 1em;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 420px){
+    .intro__paragraph{
+        font-size: .90em;
+        padding-left: 1em;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 375px){
+    .intro__paragraph{
+        font-size: .80em;
+    }
+
+    .projects__list{
+        margin-bottom: 1em;
+    }
+
+    /* header > div > h1{
+        display: block;
+        font-size: 1em;
+    } */
+
+    header{
+        display: flex;
+        flex-direction: column;
+        gap: .90em;
+    }
+
+    .footer{
+        position: absolute;
     }
 }
 
