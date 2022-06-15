@@ -26,37 +26,39 @@
     </header>
     
     <div class="container">
-        <form>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <input type="hidden" name="accessKey" value="3598cf5d-e09b-49b3-8558-814c3ec947cb">
+          <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/Portfolio/html/contatos.html">
           <ul class="flex-outer">
             <li>
               <label for="first-name">Nome</label>
-              <input type="text" id="first-name" placeholder="Digite o seu nome aqui">
+              <input type="text" id="first-name" placeholder="Digite o seu nome aqui" name="name">
             </li>
             <li>
               <label for="last-name">Sobrenome</label>
-              <input type="text" id="last-name" placeholder="Digite o seu sobrenome aqui">
+              <input type="text" id="last-name" placeholder="Digite o seu sobrenome aqui" name="sobrenome">
             </li>
             <li>
               <label for="email">Email</label>
-              <input type="email" id="email" placeholder="Digite o seu email">
+              <input type="email" id="email" placeholder="Digite o seu email" name="email">
             </li>
             <li>
               <label for="phone">Nº telefone</label>
-              <input type="tel" id="phone" placeholder="Digite o seu numero de telefone">
+              <input type="tel" id="phone" placeholder="Digite o seu numero de telefone" name="phone">
             </li>
             <li>
               <label for="message">Mensagem</label>
-              <textarea rows="6" id="message" placeholder="Digite a sua mensagem aqui"></textarea>
+              <textarea rows="6" id="message" placeholder="Digite a sua mensagem aqui" name="message"></textarea>
             </li>
             <li>
-              <button type="submit">Submit</button>
+              <button type="submit" value="submit">Submit</button>
             </li>
           </ul>
         </form>
       </div>
 
       <footer class="footer">
-        <h3>Desenvolvido por: <em> &copy; Ewerton Becker</em></h3>
+        Desenvolvido por: <em> &copy; Ewerton Becker</em>
     </footer>
 </body>
 </html>

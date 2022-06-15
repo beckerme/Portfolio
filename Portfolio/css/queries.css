@@ -1,13 +1,14 @@
-@media (min-width: 300px) and (max-width: 850px){
+@media (min-width: 300px) and (max-width: 899px){
     .projects{
         margin-top: -10em;
     }
 
     .footer{
-        /* position: absolute;
-        bottom: 0; */
-        margin-top: 3em;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
     }
+
 }
 
 @media (min-width: 300px) and (max-width: 790px){
@@ -19,9 +20,6 @@
         margin-left: -600px;
     }
 
-    .footer{
-        margin-top: 4em
-    }
 }
 
 @media (min-width: 300px) and (max-width: 670px){
@@ -55,10 +53,11 @@
     }
 
     .footer{
-        /* position: absolute;
-        bottom: 0; */
-        margin-top: 2.5em;
+        margin-top: 5em;
+        position: relative;
+        text-align: center;
     }
+
 }
 
 @media (min-width: 300px) and (max-width: 445px){
@@ -75,8 +74,8 @@
     }
 
     .footer{
-        position: absolute;
-        bottom: 0;
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -85,11 +84,6 @@
         font-size: .90em;
         padding-left: 1em;
     }
-
-    /* .footer{
-        position: absolute;
-        bottom: 0;
-    } */
 }
 
 @media (min-width: 300px) and (max-width: 375px){
