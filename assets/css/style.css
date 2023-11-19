@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #007BFF;
+    padding: 20px;
+    width: 80%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Estilo para as seções */
+section {
+    padding: 50px;
+}
+
+section h1 {
+    color: #007BFF;
+    font-size: 375%;
+}
+
+
+.sobre{
+    background-image: url(../img/eu-removebg-preview\ w.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+}
+
+.sobre-text, .projetos, #contato{
+    margin: 2% 0 0 10% ;
+}
+
+.sobre-nome{
+    color: #007BFF;
+    font-weight: 500;
+}
+
+.htm{
+    color: rgb(198, 80, 37);
+    font-weight: 500;
+}
+
+.cascading{
+    color: rgb(66, 66, 245);
+    font-weight: 500;
+}
+
+.post{
+    color: rgb(1, 1, 65);
+    font-weight: 500;
+}
+
+.js{
+    color: rgb(183, 183, 17);
+    font-weight: 500;
+}
+
+.sql{
+    color: rgb(127, 127, 0);
+    font-weight: 500;
+}
+
+.redes{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.redes i{
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 28px;  
+}
+
+@media screen and (max-width: 450px ){
+    .sobre {
+        height: 175vh; /* Define a altura automática para permitir que o conteúdo empurre o background para baixo */
+        background: url(img/eu-removebg-preview\ w.png);
+        background-repeat: no-repeat;
+        background-position: bottom;  
+    }
+
+    .sobre h1,
+    .projetos h2,
+    #contato > h2{
+        font-size: 231%;
+    }
+
+    #contato{
+        margin-top: 10em;
+    }
+
+    #contato > h2{
+        font-size: 190%;
+    }
+
+    .sobre-text {
+        margin: 10% 0; /* Ajusta a margem para se adequar a telas menores */
+    }
+}
+
+.projetos{
+    height: 100vh;
+    
+}
+
+section h2 {
+    color: #007BFF;
+    margin-bottom: 5%;
+    font-size: 375%;
+}
+
+.link, .email a{
+    color: #000;
+}
+
+.link:hover, .email a:hover{
+    color: #007BFF;
+    transition: 0.5s all;
+}
+
+section article {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #007BFF;
+    padding: 20px;
+    color: #FFF;
+    text-align: center;
+}
